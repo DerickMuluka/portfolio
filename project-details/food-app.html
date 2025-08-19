@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Delivery App | Derick Muluka</title>
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="../css/sections/project-details.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    .gradient-placeholder {
+      --project-color: #6a4c93;
+    }
+    /* Reduced spacing */
+    section {
+      padding: 40px 0 !important;
+    }
+    .project-header {
+      margin-bottom: 30px !important;
+    }
+    .project-showcase {
+      margin-bottom: 30px !important;
+    }
+    .project-content > section {
+      margin-bottom: 40px !important;
+    }
+    .features-grid {
+      margin-top: 20px !important;
+    }
+    .tech-stack, .challenges-solutions {
+      margin-top: 20px !important;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <div class="logo">
+        <a href="../index.html">DM</a>
+      </div>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li><a href="../index.html" class="nav-link">Home</a></li>
+          <li><a href="../index.html#about" class="nav-link">About</a></li>
+          <li><a href="../index.html#skills" class="nav-link">Skills</a></li>
+          <li><a href="../index.html#experience" class="nav-link">Experience</a></li>
+          <li><a href="../projects.html" class="nav-link active">Projects</a></li>
+          <li><a href="../index.html#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="mobile-menu-btn">
+          <i class="fas fa-bars"></i>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu">
+    <ul class="mobile-nav-list">
+      <li><a href="../index.html" class="mobile-nav-link">Home</a></li>
+      <li><a href="../index.html#about" class="mobile-nav-link">About</a></li>
+      <li><a href="../index.html#skills" class="mobile-nav-link">Skills</a></li>
+      <li><a href="../index.html#experience" class="mobile-nav-link">Experience</a></li>
+      <li><a href="../projects.html" class="mobile-nav-link active">Projects</a></li>
+      <li><a href="../index.html#contact" class="mobile-nav-link">Contact</a></li>
+    </ul>
+    <div class="mobile-menu-close">
+      <i class="fas fa-times"></i>
+    </div>
+  </div>
+
+  <main class="project-details">
+    <div class="container">
+      <div class="project-header">
+        <div class="breadcrumb">
+          <a href="../index.html">Home</a> / <a href="../projects.html">Projects</a> / <span>Food Delivery</span>
+        </div>
+        <h1>Food Delivery App</h1>
+        <p class="project-subtitle">Mobile application for food ordering with real-time tracking</p>
+        <div class="project-meta">
+          <div class="meta-item">
+            <i class="fas fa-calendar"></i>
+            <span>Completed: September 2023</span>
+          </div>
+          <div class="meta-item">
+            <i class="fas fa-code"></i>
+            <span>Flutter, Firebase, Google Maps</span>
+          </div>
+          <div class="meta-item">
+            <i class="fas fa-user-tie"></i>
+            <span>Client: Restaurant Chain</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-showcase">
+        <div class="showcase-image">
+          <div class="gradient-placeholder">
+            <img src="../images/projects/food-app.jpg" alt="Food Delivery App">
+          </div>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/DerickMuluka/food-app" class="btn btn-primary" target="_blank">
+            <i class="fab fa-github"></i> View Code
+          </a>
+          <a href="https://play.google.com/store/apps/details?id=com.example.foodapp" class="btn btn-secondary" target="_blank">
+            <i class="fab fa-google-play"></i> Play Store
+          </a>
+        </div>
+      </div>
+
+      <div class="project-content">
+        <section class="project-overview">
+          <h2><i class="fas fa-binoculars"></i> Project Overview</h2>
+          <p>The Food Delivery App is a cross-platform mobile application that connects customers with local restaurants. The app features menu browsing, order placement, real-time delivery tracking, and integrated payment processing.</p>
+          
+          <div class="features-grid">
+            <div class="feature-card">
+              <div class="feature-icon">
+                <i class="fas fa-utensils"></i>
+              </div>
+              <h3>Restaurant Listings</h3>
+              <p>Curated restaurant profiles with menus, ratings, and estimated delivery times.</p>
+            </div>
+            
+            <div class="feature-card">
+              <div class="feature-icon">
+                <i class="fas fa-map-marked-alt"></i>
+              </div>
+              <h3>Live Tracking</h3>
+              <p>Real-time order tracking with driver location and ETA updates.</p>
+            </div>
+            
+            <div class="feature-card">
+              <div class="feature-icon">
+                <i class="fas fa-wallet"></i>
+              </div>
+              <h3>Payment Options</h3>
+              <p>Multiple payment methods including mobile money and credit cards.</p>
+            </div>
+            
+            <div class="feature-card">
+              <div class="feature-icon">
+                <i class="fas fa-bell"></i>
+              </div>
+              <h3>Push Notifications</h3>
+              <p>Order status updates and promotional alerts.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="project-technical">
+          <h2><i class="fas fa-cogs"></i> Technical Implementation</h2>
+          
+          <div class="tech-stack">
+            <h3>Technology Stack</h3>
+            <div class="tech-grid">
+              <div class="tech-item">
+                <div class="tech-icon">
+                  <i class="fab fa-flutter"></i>
+                </div>
+                <div class="tech-info">
+                  <h4>Mobile App</h4>
+                  <ul>
+                    <li>Flutter 3.0</li>
+                    <li>Dart 2.17</li>
+                    <li>Provider State Management</li>
+                    <li>Platform-specific features</li>
+                  </ul>
+                </div>
+              </div>
+              
+              <div class="tech-item">
+                <div class="tech-icon">
+                  <i class="fas fa-server"></i>
+                </div>
+                <div class="tech-info">
+                  <h4>Backend</h4>
+                  <ul>
+                    <li>Firebase Authentication</li>
+                    <li>Cloud Firestore</li>
+                    <li>Cloud Functions</li>
+                    <li>Firebase Storage</li>
+                  </ul>
+                </div>
+              </div>
+              
+              <div class="tech-item">
+                <div class="tech-icon">
+                  <i class="fas fa-map"></i>
+                </div>
+                <div class="tech-info">
+                  <h4>Integrations</h4>
+                  <ul>
+                    <li>Google Maps API</li>
+                    <li>Payment Gateway APIs</li>
+                    <li>Twilio for SMS</li>
+                    <li>OneSignal for push</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="challenges-solutions">
+            <h3>Challenges & Solutions</h3>
+            
+            <div class="challenge-item">
+              <h4>Real-time Updates</h4>
+              <p><strong>Challenge:</strong> Needed to sync order status across customers, restaurants, and drivers in real-time.</p>
+              <p><strong>Solution:</strong> Implemented Firestore listeners with optimized queries and offline support.</p>
+            </div>
+            
+            <div class="challenge-item">
+              <h4>Delivery Routing</h4>
+              <p><strong>Challenge:</strong> Required efficient routing for drivers handling multiple deliveries.</p>
+              <p><strong>Solution:</strong> Integrated Google Maps Directions API with custom optimization logic.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="project-testimonial">
+          <h2><i class="fas fa-quote-left"></i> Client Feedback</h2>
+          <blockquote>
+            <p>"Derick's food delivery app has transformed our business. The app is fast, reliable, and beautifully designed. Our delivery times have improved by 25% thanks to the smart routing system, and customer satisfaction scores are at an all-time high."</p>
+            <footer>
+              <div class="client-info">
+                <div class="client-avatar">
+                  <i class="fas fa-user"></i>
+                </div>
+                <div>
+                  <strong>Raj Patel</strong>
+                  <span>Operations Director, Restaurant Chain</span>
+                </div>
+              </div>
+            </footer>
+          </blockquote>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-about">
+          <h3>Derick Muluka</h3>
+          <p>Full-Stack Developer & IT Specialist dedicated to creating innovative solutions and pushing technological boundaries.</p>
+          <div class="footer-social">
+            <a href="https://www.linkedin.com/in/DerickMuluka" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/DerickMuluka" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../index.html#about">About</a></li>
+            <li><a href="../index.html#skills">Skills</a></li>
+            <li><a href="../index.html#experience">Experience</a></li>
+            <li><a href="../projects.html">Projects</a></li>
+            <li><a href="../index.html#contact">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-contact">
+          <h3>Contact Info</h3>
+          <ul>
+            <li><i class="fas fa-envelope"></i> mulukaderick@gmail.com</li>
+            <li><i class="fas fa-phone"></i> +254 702 441 873</li>
+            <li><i class="fas fa-map-marker-alt"></i> Mombasa, Kenya</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2025 Derick Muluka. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/modules/navigation.js"></script>
+  <script src="../js/modules/project-gallery.js"></script>
+</body>
+</html>
