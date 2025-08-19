@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Realtime Chat App | Derick Muluka</title>
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="../css/sections/project-details.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    .gradient-placeholder {
+      --project-color: #6a4c93;
+    }
+    /* Reduced spacing */
+    section {
+      padding: 40px 0 !important;
+    }
+    .project-header {
+      margin-bottom: 30px !important;
+    }
+    .project-showcase {
+      margin-bottom: 30px !important;
+    }
+    .project-content > section {
+      margin-bottom: 40px !important;
+    }
+    .features-grid {
+      margin-top: 20px !important;
+    }
+    .tech-stack, .challenges-solutions {
+      margin-top: 20px !important;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <div class="logo">
+        <a href="../index.html">DM</a>
+      </div>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li><a href="../index.html" class="nav-link">Home</a></li>
+          <li><a href="../index.html#about" class="nav-link">About</a></li>
+          <li><a href="../index.html#skills" class="nav-link">Skills</a></li>
+          <li><a href="../index.html#experience" class="nav-link">Experience</a></li>
+          <li><a href="../projects.html" class="nav-link active">Projects</a></li>
+          <li><a href="../index.html#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="mobile-menu-btn">
+          <i class="fas fa-bars"></i>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu">
+    <ul class="mobile-nav-list">
+      <li><a href="../index.html" class="mobile-nav-link">Home</a></li>
+      <li><a href="../index.html#about" class="mobile-nav-link">About</a></li>
+      <li><a href="../index.html#skills" class="mobile-nav-link">Skills</a></li>
+      <li><a href="../index.html#experience" class="mobile-nav-link">Experience</a></li>
+      <li><a href="../projects.html" class="mobile-nav-link active">Projects</a></li>
+      <li><a href="../index.html#contact" class="mobile-nav-link">Contact</a></li>
+    </ul>
+    <div class="mobile-menu-close">
+      <i class="fas fa-times"></i>
+    </div>
+  </div>
+
+  <main class="project-details">
+    <div class="container">
+      <div class="project-header">
+        <div class="breadcrumb">
+          <a href="../index.html">Home</a> / <a href="../projects.html">Projects</a> / <span>Chat App</span>
+        </div>
+        <h1>Realtime Chat App</h1>
+        <p class="project-subtitle">Instant messaging application with end-to-end encryption</p>
+        <div class="project-meta">
+          <div class="meta-item">
+            <i class="fas fa-calendar"></i>
+            <span>Completed: August 2023</span>
+          </div>
+          <div class="meta-item">
+            <i class="fas fa-code"></i>
+            <span>React Native, Node.js, Socket.io</span>
+          </div>
+          <div class="meta-item">
+            <i class="fas fa-user-tie"></i>
+            <span>Client: Tech Startup</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-showcase">
+        <div class="showcase-image">
+          <div class="gradient-placeholder">
+            <img src="../images/projects/chat-app.jpg" alt="Chat App Interface">
+          </div>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/DerickMuluka/chat-app" class="btn btn-primary" target="_blank">
+            <i class="fab fa-github"></i> View Code
+          </a>
+          <a href="https://play.google.com/store/apps/details?id=com.example.chatapp" class="btn btn-secondary" target="_blank">
+            <i class="fab fa-google-play"></i> Play Store
+          </a>
+        </div>
+      </div>
+
+      <div class="project-content">
+        <section class="project-overview">
+          <h2><i class="fas fa-binoculars"></i> Project Overview</h2>
+          <p>The Realtime Chat App is a secure messaging platform that enables instant communication with friends and colleagues. The app features end-to-end encryption, multimedia sharing, and seamless synchronization across devices.</p>
+          
+          <div class="features-grid">
+            <div class="feature-card">
+              <div class="feature-icon">
+                <i class="fas fa-lock"></i>
+              </div>
+              <h3>End-to-End Encryption</h3>
+              <p>Military-grade encryption ensuring only intended recipients can read messages.</p>
+            </div>
+            
+            <div class="feature-card">
+              <div class="feature-icon">
+                <i class="fas fa-bolt"></i>
+              </div>
+              <h3>Realtime Messaging</h3>
+              <p>Instant message delivery with typing indicators and read receipts.</p>
+            </div>
+            
+            <div class="feature-card">
+              <div class="feature-icon">
+                <i class="fas fa-images"></i>
+              </div>
+              <h3>Media Sharing</h3>
+              <p>Share photos, videos, and documents with compression and previews.</p>
+            </div>
+            
+            <div class="feature-card">
+              <div class="feature-icon">
+                <i class="fas fa-users"></i>
+              </div>
+              <h3>Group Chats</h3>
+              <p>Create groups with admin controls and customizable settings.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="project-technical">
+          <h2><i class="fas fa-cogs"></i> Technical Implementation</h2>
+          
+          <div class="tech-stack">
+            <h3>Technology Stack</h3>
+            <div class="tech-grid">
+              <div class="tech-item">
+                <div class="tech-icon">
+                  <i class="fab fa-react"></i>
+                </div>
+                <div class="tech-info">
+                  <h4>Mobile App</h4>
+                  <ul>
+                    <li>React Native 0.70</li>
+                    <li>Expo Framework</li>
+                    <li>Redux Toolkit</li>
+                    <li>Native Modules</li>
+                  </ul>
+                </div>
+              </div>
+              
+              <div class="tech-item">
+                <div class="tech-icon">
+                  <i class="fab fa-node-js"></i>
+                </div>
+                <div class="tech-info">
+                  <h4>Backend</h4>
+                  <ul>
+                    <li>Node.js 16</li>
+                    <li>Express.js</li>
+                    <li>Socket.io</li>
+                    <li>JWT Authentication</li>
+                  </ul>
+                </div>
+              </div>
+              
+              <div class="tech-item">
+                <div class="tech-icon">
+                  <i class="fas fa-database"></i>
+                </div>
+                <div class="tech-info">
+                  <h4>Database</h4>
+                  <ul>
+                    <li>MongoDB Atlas</li>
+                    <li>Message Queue</li>
+                    <li>Redis Caching</li>
+                    <li>Message Archiving</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="challenges-solutions">
+            <h3>Challenges & Solutions</h3>
+            
+            <div class="challenge-item">
+              <h4>Message Synchronization</h4>
+              <p><strong>Challenge:</strong> Needed to maintain message consistency across multiple devices in real-time.</p>
+              <p><strong>Solution:</strong> Implemented operational transformation with version vectors for conflict resolution.</p>
+            </div>
+            
+            <div class="challenge-item">
+              <h4>Encryption Performance</h4>
+              <p><strong>Challenge:</strong> Encryption/decryption was causing UI lag on older devices.</p>
+              <p><strong>Solution:</strong> Offloaded crypto operations to native modules and optimized key management.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="project-testimonial">
+          <h2><i class="fas fa-quote-left"></i> Client Feedback</h2>
+          <blockquote>
+            <p>"Derick delivered a chat application that exceeds industry standards for security and performance. The app handles thousands of concurrent users with no latency, and the encryption implementation has passed multiple security audits. His attention to detail is remarkable."</p>
+            <footer>
+              <div class="client-info">
+                <div class="client-avatar">
+                  <i class="fas fa-user"></i>
+                </div>
+                <div>
+                  <strong>David Kimani</strong>
+                  <span>CTO, Tech Startup</span>
+                </div>
+              </div>
+            </footer>
+          </blockquote>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-about">
+          <h3>Derick Muluka</h3>
+          <p>Full-Stack Developer & IT Specialist dedicated to creating innovative solutions and pushing technological boundaries.</p>
+          <div class="footer-social">
+            <a href="https://www.linkedin.com/in/DerickMuluka" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/DerickMuluka" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../index.html#about">About</a></li>
+            <li><a href="../index.html#skills">Skills</a></li>
+            <li><a href="../index.html#experience">Experience</a></li>
+            <li><a href="../projects.html">Projects</a></li>
+            <li><a href="../index.html#contact">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-contact">
+          <h3>Contact Info</h3>
+          <ul>
+            <li><i class="fas fa-envelope"></i> mulukaderick@gmail.com</li>
+            <li><i class="fas fa-phone"></i> +254 702 441 873</li>
+            <li><i class="fas fa-map-marker-alt"></i> Mombasa, Kenya</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2025 Derick Muluka. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/modules/navigation.js"></script>
+  <script src="../js/modules/project-gallery.js"></script>
+</body>
+</html>
