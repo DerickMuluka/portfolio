@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hubcomps Website | Derick Muluka</title>
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="../css/sections/project-details.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    .gradient-placeholder {
+      --project-color: #6a4c93;
+    }
+    /* Reduced spacing */
+    section {
+      padding: 40px 0 !important;
+    }
+    .project-header {
+      margin-bottom: 30px !important;
+    }
+    .project-showcase {
+      margin-bottom: 30px !important;
+    }
+    .project-content > section {
+      margin-bottom: 40px !important;
+    }
+    .features-grid {
+      margin-top: 20px !important;
+    }
+    .tech-stack, .challenges-solutions {
+      margin-top: 20px !important;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <div class="logo">
+        <a href="../index.html">DM</a>
+      </div>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li><a href="../index.html" class="nav-link">Home</a></li>
+          <li><a href="../index.html#about" class="nav-link">About</a></li>
+          <li><a href="../index.html#skills" class="nav-link">Skills</a></li>
+          <li><a href="../index.html#experience" class="nav-link">Experience</a></li>
+          <li><a href="../projects.html" class="nav-link active">Projects</a></li>
+          <li><a href="../index.html#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="mobile-menu-btn">
+          <i class="fas fa-bars"></i>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu">
+    <ul class="mobile-nav-list">
+      <li><a href="../index.html" class="mobile-nav-link">Home</a></li>
+      <li><a href="../index.html#about" class="mobile-nav-link">About</a></li>
+      <li><a href="../index.html#skills" class="mobile-nav-link">Skills</a></li>
+      <li><a href="../index.html#experience" class="mobile-nav-link">Experience</a></li>
+      <li><a href="../projects.html" class="mobile-nav-link active">Projects</a></li>
+      <li><a href="../index.html#contact" class="mobile-nav-link">Contact</a></li>
+    </ul>
+    <div class="mobile-menu-close">
+      <i class="fas fa-times"></i>
+    </div>
+  </div>
+
+  <main class="project-details">
+    <div class="container">
+      <div class="project-header">
+        <div class="breadcrumb">
+          <a href="../index.html">Home</a> / <a href="../projects.html">Projects</a> / <span>Hubcomps Website</span>
+        </div>
+        <h1>Hubcomps Website</h1>
+        <p class="project-subtitle">Corporate website with e-learning platform integration</p>
+        <div class="project-meta">
+          <div class="meta-item">
+            <i class="fas fa-calendar"></i>
+            <span>Completed: November 2023</span>
+          </div>
+          <div class="meta-item">
+            <i class="fas fa-code"></i>
+            <span>WordPress, PHP, Elementor</span>
+          </div>
+          <div class="meta-item">
+            <i class="fas fa-user-tie"></i>
+            <span>Client: Hubcomps Limited</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-showcase">
+        <div class="showcase-image">
+          <div class="gradient-placeholder">
+            <img src="../images/projects/hubcomps-website.jpg" alt="Hubcomps Website">
+          </div>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/DerickMuluka/hubcomps-website" class="btn btn-primary" target="_blank">
+            <i class="fab fa-github"></i> View Code
+          </a>
+          <a href="https://hubcomps.com" class="btn btn-secondary" target="_blank">
+            <i class="fas fa-external-link-alt"></i> Live Demo
+          </a>
+        </div>
+      </div>
+
+      <div class="project-content">
+        <section class="project-overview">
+          <h2><i class="fas fa-binoculars"></i> Project Overview</h2>
+          <p>The Hubcomps website serves as the digital face of the company, combining corporate information with an integrated e-learning platform. The site showcases services, hosts training materials, and provides a member portal for clients.</p>
+          
+          <div class="features-grid">
+            <div class="feature-card">
+              <div class="feature-icon">
+                <i class="fas fa-graduation-cap"></i>
+              </div>
+              <h3>E-Learning Platform</h3>
+              <p>Integrated LMS with course management, progress tracking, and certification.</p>
+            </div>
+            
+            <div class="feature-card">
+              <div class="feature-icon">
+                <i class="fas fa-user-shield"></i>
+              </div>
+              <h3>Member Portal</h3>
+              <p>Secure area for clients to access resources, support tickets, and billing.</p>
+            </div>
+            
+            <div class="feature-card">
+              <div class="feature-icon">
+                <i class="fas fa-search"></i>
+              </div>
+              <h3>Knowledge Base</h3>
+              <p>Searchable repository of articles, tutorials, and documentation.</p>
+            </div>
+            
+            <div class="feature-card">
+              <div class="feature-icon">
+                <i class="fas fa-chart-line"></i>
+              </div>
+              <h3>Analytics</h3>
+              <p>Detailed visitor tracking and course engagement metrics.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="project-technical">
+          <h2><i class="fas fa-cogs"></i> Technical Implementation</h2>
+          
+          <div class="tech-stack">
+            <h3>Technology Stack</h3>
+            <div class="tech-grid">
+              <div class="tech-item">
+                <div class="tech-icon">
+                  <i class="fab fa-wordpress"></i>
+                </div>
+                <div class="tech-info">
+                  <h4>CMS</h4>
+                  <ul>
+                    <li>WordPress 6.2</li>
+                    <li>Custom Theme</li>
+                    <li>Elementor Pro</li>
+                    <li>Advanced Custom Fields</li>
+                  </ul>
+                </div>
+              </div>
+              
+              <div class="tech-item">
+                <div class="tech-icon">
+                  <i class="fas fa-graduation-cap"></i>
+                </div>
+                <div class="tech-info">
+                  <h4>E-Learning</h4>
+                  <ul>
+                    <li>LearnDash LMS</li>
+                    <li>WooCommerce integration</li>
+                    <li>Gamification</li>
+                    <li>SCORM support</li>
+                  </ul>
+                </div>
+              </div>
+              
+              <div class="tech-item">
+                <div class="tech-icon">
+                  <i class="fas fa-tachometer-alt"></i>
+                </div>
+                <div class="tech-info">
+                  <h4>Performance</h4>
+                  <ul>
+                    <li>Redis caching</li>
+                    <li>CDN integration</li>
+                    <li>Image optimization</li>
+                    <li>Lazy loading</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="challenges-solutions">
+            <h3>Challenges & Solutions</h3>
+            
+            <div class="challenge-item">
+              <h4>User Role Management</h4>
+              <p><strong>Challenge:</strong> Needed complex user role hierarchies with different access levels for students, instructors, and administrators.</p>
+              <p><strong>Solution:</strong> Implemented custom role management system with granular capabilities using the Members plugin and custom code.</p>
+            </div>
+            
+            <div class="challenge-item">
+              <h4>Course Progress Synchronization</h4>
+              <p><strong>Challenge:</strong> Required real-time progress tracking across multiple devices with offline capability.</p>
+              <p><strong>Solution:</strong> Developed a hybrid solution using localStorage for offline tracking with periodic AJAX synchronization to the server.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="project-testimonial">
+          <h2><i class="fas fa-quote-left"></i> Client Feedback</h2>
+          <blockquote>
+            <p>"Derick transformed our outdated website into a modern, functional platform that perfectly represents our brand. The e-learning integration has significantly improved our training delivery, and the member portal has streamlined client management. His attention to detail and problem-solving skills were invaluable throughout the project."</p>
+            <footer>
+              <div class="client-info">
+                <div class="client-avatar">
+                  <i class="fas fa-user"></i>
+                </div>
+                <div>
+                  <strong>John Mwangi</strong>
+                  <span>CEO, Hubcomps Limited</span>
+                </div>
+              </div>
+            </footer>
+          </blockquote>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-about">
+          <h3>Derick Muluka</h3>
+          <p>Full-Stack Developer & IT Specialist dedicated to creating innovative solutions and pushing technological boundaries.</p>
+          <div class="footer-social">
+            <a href="https://www.linkedin.com/in/DerickMuluka" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/DerickMuluka" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../index.html#about">About</a></li>
+            <li><a href="../index.html#skills">Skills</a></li>
+            <li><a href="../index.html#experience">Experience</a></li>
+            <li><a href="../projects.html">Projects</a></li>
+            <li><a href="../index.html#contact">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-contact">
+          <h3>Contact Info</h3>
+          <ul>
+            <li><i class="fas fa-envelope"></i> mulukaderick@gmail.com</li>
+            <li><i class="fas fa-phone"></i> +254 702 441 873</li>
+            <li><i class="fas fa-map-marker-alt"></i> Mombasa, Kenya</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2025 Derick Muluka. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/modules/navigation.js"></script>
+  <script src="../js/modules/project-gallery.js"></script>
+</body>
+</html>
