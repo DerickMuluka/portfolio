@@ -1,0 +1,132 @@
+/* Header Styles */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgba(247, 250, 252, 0.98);
+    box-shadow: var(--shadow-sm);
+    transition: var(--transition);
+    padding: 10px 0;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+.logo a {
+    font-family: var(--font-secondary);
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+.nav-link {
+    font-family: var(--font-secondary);
+    font-weight: 600;
+    color: var(--secondary-color);
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: var(--border-radius-sm);
+    transition: var(--transition);
+    position: relative;
+    font-size: 0.9rem;
+}
+
+.nav-link:hover {
+    color: var(--primary-color);
+    background-color: rgba(106, 76, 147, 0.1);
+}
+
+.nav-link.active {
+    color: var(--primary-color);
+    background-color: rgba(106, 76, 147, 0.1);
+}
+
+.mobile-menu-btn {
+    display: none;
+    font-size: 1.4rem;
+    cursor: pointer;
+    color: var(--secondary-color);
+    padding: 5px;
+    transition: var(--transition);
+}
+
+.mobile-menu-btn:hover {
+    color: var(--primary-color);
+}
+
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 280px;
+    height: 100vh;
+    background-color: var(--light-color);
+    box-shadow: var(--shadow-xl);
+    z-index: 1100;
+    transition: var(--transition);
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.mobile-menu.active {
+    right: 0;
+}
+
+.mobile-nav-list {
+    list-style: none;
+    margin-top: 40px;
+}
+
+.mobile-nav-link {
+    display: block;
+    padding: 12px 0;
+    font-family: var(--font-secondary);
+    font-weight: 600;
+    color: var(--secondary-color);
+    text-decoration: none;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    transition: var(--transition);
+}
+
+.mobile-nav-link:hover, .mobile-nav-link.active {
+    color: var(--primary-color);
+    padding-left: 10px;
+}
+
+.mobile-menu-close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: var(--secondary-color);
+    transition: var(--transition);
+}
+
+.mobile-menu-close:hover {
+    color: var(--primary-color);
+    transform: rotate(90deg);
+}
+
+@media (max-width: 768px) {
+    .nav-list {
+        display: none;
+    }
+    
+    .mobile-menu-btn {
+        display: block;
+    }
+}
