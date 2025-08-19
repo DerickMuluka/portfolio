@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Voting System | Derick Muluka</title>
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="../css/sections/project-details.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    .gradient-placeholder {
+      --project-color: #6a4c93;
+    }
+    /* Reduced spacing */
+    section {
+      padding: 40px 0 !important;
+    }
+    .project-header {
+      margin-bottom: 30px !important;
+    }
+    .project-showcase {
+      margin-bottom: 30px !important;
+    }
+    .project-content > section {
+      margin-bottom: 40px !important;
+    }
+    .features-grid {
+      margin-top: 20px !important;
+    }
+    .tech-stack, .challenges-solutions {
+      margin-top: 20px !important;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <div class="logo">
+        <a href="../index.html">DM</a>
+      </div>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li><a href="../index.html" class="nav-link">Home</a></li>
+          <li><a href="../index.html#about" class="nav-link">About</a></li>
+          <li><a href="../index.html#skills" class="nav-link">Skills</a></li>
+          <li><a href="../index.html#experience" class="nav-link">Experience</a></li>
+          <li><a href="../projects.html" class="nav-link active">Projects</a></li>
+          <li><a href="../index.html#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="mobile-menu-btn">
+          <i class="fas fa-bars"></i>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu">
+    <ul class="mobile-nav-list">
+      <li><a href="../index.html" class="mobile-nav-link">Home</a></li>
+      <li><a href="../index.html#about" class="mobile-nav-link">About</a></li>
+      <li><a href="../index.html#skills" class="mobile-nav-link">Skills</a></li>
+      <li><a href="../index.html#experience" class="mobile-nav-link">Experience</a></li>
+      <li><a href="../projects.html" class="mobile-nav-link active">Projects</a></li>
+      <li><a href="../index.html#contact" class="mobile-nav-link">Contact</a></li>
+    </ul>
+    <div class="mobile-menu-close">
+      <i class="fas fa-times"></i>
+    </div>
+  </div>
+
+  <main class="project-details">
+    <div class="container">
+      <div class="project-header">
+        <div class="breadcrumb">
+          <a href="../index.html">Home</a> / <a href="../projects.html">Projects</a> / <span>Online Voting System</span>
+        </div>
+        <h1>Online Voting System</h1>
+        <p class="project-subtitle">Secure digital voting platform with biometric verification</p>
+        <div class="project-meta">
+          <div class="meta-item">
+            <i class="fas fa-calendar"></i>
+            <span>Completed: April 2024</span>
+          </div>
+          <div class="meta-item">
+            <i class="fas fa-code"></i>
+            <span>Django, Python, PostgreSQL</span>
+          </div>
+          <div class="meta-item">
+            <i class="fas fa-user-tie"></i>
+            <span>Client: National Elections Board</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-showcase">
+        <div class="showcase-image">
+          <div class="gradient-placeholder">
+            <img src="../images/projects/voting-system.jpg" alt="Voting System Dashboard">
+          </div>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/DerickMuluka/voting-system" class="btn btn-primary" target="_blank">
+            <i class="fab fa-github"></i> View Code
+          </a>
+          <a href="https://voting.demo.com" class="btn btn-secondary" target="_blank">
+            <i class="fas fa-external-link-alt"></i> Live Demo
+          </a>
+        </div>
+      </div>
+
+      <div class="project-content">
+        <section class="project-overview">
+          <h2><i class="fas fa-binoculars"></i> Project Overview</h2>
+          <p>The Online Voting System is a secure digital platform designed to facilitate fair and transparent elections. The system incorporates biometric verification, real-time results, and comprehensive audit trails to ensure election integrity.</p>
+          
+          <div class="features-grid">
+            <div class="feature-card">
+              <div class="feature-icon">
+                <i class="fas fa-fingerprint"></i>
+              </div>
+              <h3>Biometric Verification</h3>
+              <p>Integrated fingerprint and facial recognition to prevent duplicate voting and ensure voter identity.</p>
+            </div>
+            
+            <div class="feature-card">
+              <div class="feature-icon">
+                <i class="fas fa-shield-alt"></i>
+              </div>
+              <h3>End-to-End Encryption</h3>
+              <p>Military-grade encryption for all transmitted data and stored votes to prevent tampering.</p>
+            </div>
+            
+            <div class="feature-card">
+              <div class="feature-icon">
+                <i class="fas fa-chart-bar"></i>
+              </div>
+              <h3>Real-time Analytics</h3>
+              <p>Live election dashboards with geographic breakdowns and demographic analysis.</p>
+            </div>
+            
+            <div class="feature-card">
+              <div class="feature-icon">
+                <i class="fas fa-clipboard-check"></i>
+              </div>
+              <h3>Audit Trails</h3>
+              <p>Comprehensive logging of all system activities with blockchain-based verification.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="project-technical">
+          <h2><i class="fas fa-cogs"></i> Technical Implementation</h2>
+          
+          <div class="tech-stack">
+            <h3>Technology Stack</h3>
+            <div class="tech-grid">
+              <div class="tech-item">
+                <div class="tech-icon">
+                  <i class="fab fa-python"></i>
+                </div>
+                <div class="tech-info">
+                  <h4>Backend</h4>
+                  <ul>
+                    <li>Django 4.1</li>
+                    <li>Django REST Framework</li>
+                    <li>Celery for async tasks</li>
+                    <li>Redis for caching</li>
+                  </ul>
+                </div>
+              </div>
+              
+              <div class="tech-item">
+                <div class="tech-icon">
+                  <i class="fas fa-database"></i>
+                </div>
+                <div class="tech-info">
+                  <h4>Database</h4>
+                  <ul>
+                    <li>PostgreSQL 14</li>
+                    <li>TimescaleDB for time-series</li>
+                    <li>Database partitioning</li>
+                    <li>Row-level security</li>
+                  </ul>
+                </div>
+              </div>
+              
+              <div class="tech-item">
+                <div class="tech-icon">
+                  <i class="fab fa-js"></i>
+                </div>
+                <div class="tech-info">
+                  <h4>Frontend</h4>
+                  <ul>
+                    <li>Vue.js 3</li>
+                    <li>Pinia for state</li>
+                    <li>Tailwind CSS</li>
+                    <li>WebSockets</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="challenges-solutions">
+            <h3>Challenges & Solutions</h3>
+            
+            <div class="challenge-item">
+              <h4>Biometric Performance</h4>
+              <p><strong>Challenge:</strong> Needed high-accuracy biometric matching that worked across diverse devices.</p>
+              <p><strong>Solution:</strong> Implemented hybrid approach combining device-native APIs with custom algorithms.</p>
+            </div>
+            
+            <div class="challenge-item">
+              <h4>Vote Secrecy</h4>
+              <p><strong>Challenge:</strong> Required complete vote secrecy while maintaining auditability.</p>
+              <p><strong>Solution:</strong> Developed a dual-key encryption system separating voter identity from vote content.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="project-testimonial">
+          <h2><i class="fas fa-quote-left"></i> Client Feedback</h2>
+          <blockquote>
+            <p>"This voting system has set a new standard for electoral integrity in our country. Derick's deep understanding of security requirements and his innovative approach to solving complex problems resulted in a system that has been praised by international observers."</p>
+            <footer>
+              <div class="client-info">
+                <div class="client-avatar">
+                  <i class="fas fa-user"></i>
+                </div>
+                <div>
+                  <strong>Commissioner James Mwangi</strong>
+                  <span>Chairperson, National Elections Board</span>
+                </div>
+              </div>
+            </footer>
+          </blockquote>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-about">
+          <h3>Derick Muluka</h3>
+          <p>Full-Stack Developer & IT Specialist dedicated to creating innovative solutions and pushing technological boundaries.</p>
+          <div class="footer-social">
+            <a href="https://www.linkedin.com/in/DerickMuluka" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/DerickMuluka" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../index.html#about">About</a></li>
+            <li><a href="../index.html#skills">Skills</a></li>
+            <li><a href="../index.html#experience">Experience</a></li>
+            <li><a href="../projects.html">Projects</a></li>
+            <li><a href="../index.html#contact">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-contact">
+          <h3>Contact Info</h3>
+          <ul>
+            <li><i class="fas fa-envelope"></i> mulukaderick@gmail.com</li>
+            <li><i class="fas fa-phone"></i> +254 702 441 873</li>
+            <li><i class="fas fa-map-marker-alt"></i> Mombasa, Kenya</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2025 Derick Muluka. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/modules/navigation.js"></script>
+  <script src="../js/modules/project-gallery.js"></script>
+</body>
+</html>
