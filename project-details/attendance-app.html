@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Attendance Tracking App | Derick Muluka</title>
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="../css/sections/project-details.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    .gradient-placeholder {
+      --project-color: #6a4c93;
+    }
+    /* Reduced spacing */
+    section {
+      padding: 40px 0 !important;
+    }
+    .project-header {
+      margin-bottom: 30px !important;
+    }
+    .project-showcase {
+      margin-bottom: 30px !important;
+    }
+    .project-content > section {
+      margin-bottom: 40px !important;
+    }
+    .features-grid {
+      margin-top: 20px !important;
+    }
+    .tech-stack, .challenges-solutions {
+      margin-top: 20px !important;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <div class="logo">
+        <a href="../index.html">DM</a>
+      </div>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li><a href="../index.html" class="nav-link">Home</a></li>
+          <li><a href="../index.html#about" class="nav-link">About</a></li>
+          <li><a href="../index.html#skills" class="nav-link">Skills</a></li>
+          <li><a href="../index.html#experience" class="nav-link">Experience</a></li>
+          <li><a href="../projects.html" class="nav-link active">Projects</a></li>
+          <li><a href="../index.html#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="mobile-menu-btn">
+          <i class="fas fa-bars"></i>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu">
+    <ul class="mobile-nav-list">
+      <li><a href="../index.html" class="mobile-nav-link">Home</a></li>
+      <li><a href="../index.html#about" class="mobile-nav-link">About</a></li>
+      <li><a href="../index.html#skills" class="mobile-nav-link">Skills</a></li>
+      <li><a href="../index.html#experience" class="mobile-nav-link">Experience</a></li>
+      <li><a href="../projects.html" class="mobile-nav-link active">Projects</a></li>
+      <li><a href="../index.html#contact" class="mobile-nav-link">Contact</a></li>
+    </ul>
+    <div class="mobile-menu-close">
+      <i class="fas fa-times"></i>
+    </div>
+  </div>
+
+  <main class="project-details">
+    <div class="container">
+      <div class="project-header">
+        <div class="breadcrumb">
+          <a href="../index.html">Home</a> / <a href="../projects.html">Projects</a> / <span>Attendance App</span>
+        </div>
+        <h1>Attendance Tracking App</h1>
+        <p class="project-subtitle">Biometric attendance system with facial recognition</p>
+        <div class="project-meta">
+          <div class="meta-item">
+            <i class="fas fa-calendar"></i>
+            <span>Completed: July 2023</span>
+          </div>
+          <div class="meta-item">
+            <i class="fas fa-code"></i>
+            <span>Kotlin, Android, Firebase</span>
+          </div>
+          <div class="meta-item">
+            <i class="fas fa-user-tie"></i>
+            <span>Client: Educational Institution</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-showcase">
+        <div class="showcase-image">
+          <div class="gradient-placeholder">
+            <img src="../images/projects/attendance-app.jpg" alt="Attendance App Interface">
+          </div>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/DerickMuluka/attendance-app" class="btn btn-primary" target="_blank">
+            <i class="fab fa-github"></i> View Code
+          </a>
+          <a href="https://play.google.com/store/apps/details?id=com.example.attendance" class="btn btn-secondary" target="_blank">
+            <i class="fab fa-google-play"></i> Play Store
+          </a>
+        </div>
+      </div>
+
+      <div class="project-content">
+        <section class="project-overview">
+          <h2><i class="fas fa-binoculars"></i> Project Overview</h2>
+          <p>The Attendance Tracking App is a biometric solution designed to streamline attendance management in educational institutions. The system uses facial recognition technology to accurately record student attendance while preventing proxy attendance.</p>
+          
+          <div class="features-grid">
+            <div class="feature-card">
+              <div class="feature-icon">
+                <i class="fas fa-user-check"></i>
+              </div>
+              <h3>Facial Recognition</h3>
+              <p>Advanced face detection and matching algorithms for accurate identification.</p>
+            </div>
+            
+            <div class="feature-card">
+              <div class="feature-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <h3>Geofencing</h3>
+              <p>Location-based attendance with configurable geofence boundaries.</p>
+            </div>
+            
+            <div class="feature-card">
+              <div class="feature-icon">
+                <i class="fas fa-file-export"></i>
+              </div>
+              <h3>Reporting</h3>
+              <p>Comprehensive attendance reports with export to multiple formats.</p>
+            </div>
+            
+            <div class="feature-card">
+              <div class="feature-icon">
+                <i class="fas fa-bell"></i>
+              </div>
+              <h3>Notifications</h3>
+              <p>Automated alerts for absent students and attendance thresholds.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="project-technical">
+          <h2><i class="fas fa-cogs"></i> Technical Implementation</h2>
+          
+          <div class="tech-stack">
+            <h3>Technology Stack</h3>
+            <div class="tech-grid">
+              <div class="tech-item">
+                <div class="tech-icon">
+                  <i class="fab fa-android"></i>
+                </div>
+                <div class="tech-info">
+                  <h4>Mobile App</h4>
+                  <ul>
+                    <li>Kotlin</li>
+                    <li>Android SDK</li>
+                    <li>Jetpack Components</li>
+                    <li>ML Kit for Face Detection</li>
+                  </ul>
+                </div>
+              </div>
+              
+              <div class="tech-item">
+                <div class="tech-icon">
+                  <i class="fas fa-server"></i>
+                </div>
+                <div class="tech-info">
+                  <h4>Backend</h4>
+                  <ul>
+                    <li>Firebase Authentication</li>
+                    <li>Firestore Database</li>
+                    <li>Cloud Functions</li>
+                    <li>Firebase Storage</li>
+                  </ul>
+                </div>
+              </div>
+              
+              <div class="tech-item">
+                <div class="tech-icon">
+                  <i class="fas fa-lock"></i>
+                </div>
+                <div class="tech-info">
+                  <h4>Security</h4>
+                  <ul>
+                    <li>Biometric Encryption</li>
+                    <li>Role-based Access</li>
+                    <li>Audit Logging</li>
+                    <li>Data Anonymization</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="challenges-solutions">
+            <h3>Challenges & Solutions</h3>
+            
+            <div class="challenge-item">
+              <h4>Offline Operation</h4>
+              <p><strong>Challenge:</strong> Needed to function reliably in areas with poor internet connectivity.</p>
+              <p><strong>Solution:</strong> Implemented robust offline-first architecture with sync-on-reconnect.</p>
+            </div>
+            
+            <div class="challenge-item">
+              <h4>Diverse Device Performance</h4>
+              <p><strong>Challenge:</strong> Face recognition needed to work across a wide range of Android devices.</p>
+              <p><strong>Solution:</strong> Optimized ML models with fallback to simpler algorithms for low-end devices.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="project-testimonial">
+          <h2><i class="fas fa-quote-left"></i> Client Feedback</h2>
+          <blockquote>
+            <p>"This attendance system has revolutionized how we track student participation. The facial recognition is remarkably accurate, and the reporting features have saved our administrative staff countless hours. Derick's understanding of both the technical and educational requirements was impressive."</p>
+            <footer>
+              <div class="client-info">
+                <div class="client-avatar">
+                  <i class="fas fa-user"></i>
+                </div>
+                <div>
+                  <strong>Dr. Elizabeth Njoroge</strong>
+                  <span>Dean, Educational Institution</span>
+                </div>
+              </div>
+            </footer>
+          </blockquote>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-about">
+          <h3>Derick Muluka</h3>
+          <p>Full-Stack Developer & IT Specialist dedicated to creating innovative solutions and pushing technological boundaries.</p>
+          <div class="footer-social">
+            <a href="https://www.linkedin.com/in/DerickMuluka" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/DerickMuluka" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../index.html#about">About</a></li>
+            <li><a href="../index.html#skills">Skills</a></li>
+            <li><a href="../index.html#experience">Experience</a></li>
+            <li><a href="../projects.html">Projects</a></li>
+            <li><a href="../index.html#contact">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-contact">
+          <h3>Contact Info</h3>
+          <ul>
+            <li><i class="fas fa-envelope"></i> mulukaderick@gmail.com</li>
+            <li><i class="fas fa-phone"></i> +254 702 441 873</li>
+            <li><i class="fas fa-map-marker-alt"></i> Mombasa, Kenya</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2025 Derick Muluka. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/modules/navigation.js"></script>
+  <script src="../js/modules/project-gallery.js"></script>
+</body>
+</html>
