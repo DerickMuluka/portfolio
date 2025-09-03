@@ -77,19 +77,19 @@
           <a href="../index.html">Home</a> / <a href="../projects.html">Projects</a> / <span>Lab Management</span>
         </div>
         <h1>Lab Management System</h1>
-        <p class="project-subtitle">System for managing laboratory equipment and experiments</p>
+        <p class="project-subtitle">Simple system for managing laboratory equipment</p>
         <div class="project-meta">
           <div class="meta-item">
             <i class="fas fa-calendar"></i>
-            <span>Completed: December 2023</span>
+            <span>Completed: March 2024</span>
           </div>
           <div class="meta-item">
             <i class="fas fa-code"></i>
-            <span>Python, Django, SQLite</span>
+            <span>PHP, MySQL, JavaScript</span>
           </div>
           <div class="meta-item">
             <i class="fas fa-user-tie"></i>
-            <span>Client: University Research Department</span>
+            <span>Client: Local School</span>
           </div>
         </div>
       </div>
@@ -97,14 +97,14 @@
       <div class="project-showcase">
         <div class="showcase-image">
           <div class="gradient-placeholder">
-            <img src="../images/projects/lab-management.png" alt="Lab Management Dashboard">
+            <img src="../images/projects/lab-management.png" alt="Lab Management System">
           </div>
         </div>
         <div class="project-links">
-          <a href="https://github.com/DerickMuluka/lab-management" class="btn btn-primary" target="_blank">
+          <a class="btn btn-primary" target="_blank">
             <i class="fab fa-github"></i> View Code
           </a>
-          <a href="https://lab.demo.com" class="btn btn-secondary" target="_blank">
+          <a class="btn btn-secondary" target="_blank">
             <i class="fas fa-external-link-alt"></i> Live Demo
           </a>
         </div>
@@ -113,7 +113,7 @@
       <div class="project-content">
         <section class="project-overview">
           <h2><i class="fas fa-binoculars"></i> Project Overview</h2>
-          <p>The Lab Management System is designed to streamline operations in research laboratories by tracking equipment usage, managing experiments, and facilitating collaboration among researchers. The system helps optimize resource utilization and maintain compliance with safety protocols.</p>
+          <p>The Lab Management System helps schools and small labs keep track of their equipment and supplies. It includes inventory management, equipment booking, and basic reporting.</p>
           
           <div class="features-grid">
             <div class="feature-card">
@@ -121,15 +121,7 @@
                 <i class="fas fa-microscope"></i>
               </div>
               <h3>Equipment Tracking</h3>
-              <p>Comprehensive inventory of lab equipment with maintenance schedules, calibration records, and usage logs.</p>
-            </div>
-            
-            <div class="feature-card">
-              <div class="feature-icon">
-                <i class="fas fa-flask"></i>
-              </div>
-              <h3>Experiment Management</h3>
-              <p>Structured documentation of experiments with protocols, materials, and results tracking.</p>
+              <p>Simple inventory system for tracking lab equipment and supplies.</p>
             </div>
             
             <div class="feature-card">
@@ -137,15 +129,23 @@
                 <i class="fas fa-calendar-check"></i>
               </div>
               <h3>Booking System</h3>
-              <p>Online reservation system for shared equipment with conflict detection and usage analytics.</p>
+              <p>Basic calendar for reserving equipment and lab space.</p>
+            </div>
+            
+            <div class="feature-card">
+              <div class="feature-icon">
+                <i class="fas fa-clipboard-list"></i>
+              </div>
+              <h3>Maintenance Logs</h3>
+              <p>Simple system for tracking equipment maintenance and repairs.</p>
             </div>
             
             <div class="feature-card">
               <div class="feature-icon">
                 <i class="fas fa-file-alt"></i>
               </div>
-              <h3>Compliance</h3>
-              <p>Safety documentation, chemical inventory, and audit trails for regulatory compliance.</p>
+              <h3>Basic Reports</h3>
+              <p>Simple reporting on equipment usage and inventory levels.</p>
             </div>
           </div>
         </section>
@@ -158,15 +158,14 @@
             <div class="tech-grid">
               <div class="tech-item">
                 <div class="tech-icon">
-                  <i class="fab fa-python"></i>
+                  <i class="fab fa-php"></i>
                 </div>
                 <div class="tech-info">
                   <h4>Backend</h4>
                   <ul>
-                    <li>Python 3.10</li>
-                    <li>Django 4.1</li>
-                    <li>Django REST Framework</li>
-                    <li>Celery for async tasks</li>
+                    <li>PHP</li>
+                    <li>Simple booking system</li>
+                    <li>Basic API endpoints</li>
                   </ul>
                 </div>
               </div>
@@ -178,10 +177,9 @@
                 <div class="tech-info">
                   <h4>Database</h4>
                   <ul>
-                    <li>SQLite (development)</li>
-                    <li>PostgreSQL (production)</li>
-                    <li>Full-text search</li>
-                    <li>Data export tools</li>
+                    <li>MySQL</li>
+                    <li>Equipment inventory</li>
+                    <li>Booking records</li>
                   </ul>
                 </div>
               </div>
@@ -193,10 +191,9 @@
                 <div class="tech-info">
                   <h4>Frontend</h4>
                   <ul>
-                    <li>Django Templates</li>
-                    <li>HTMX for interactivity</li>
-                    <li>Bootstrap 5</li>
-                    <li>Chart.js</li>
+                    <li>HTML/CSS</li>
+                    <li>JavaScript</li>
+                    <li>jQuery for interactions</li>
                   </ul>
                 </div>
               </div>
@@ -207,15 +204,15 @@
             <h3>Challenges & Solutions</h3>
             
             <div class="challenge-item">
-              <h4>Complex Booking Rules</h4>
-              <p><strong>Challenge:</strong> Needed to support varied booking rules for different equipment types with approval workflows.</p>
-              <p><strong>Solution:</strong> Implemented a flexible rules engine with configurable equipment profiles.</p>
+              <h4>Equipment Availability</h4>
+              <p><strong>Challenge:</strong> Needed to prevent double booking of the same equipment.</p>
+              <p><strong>Solution:</strong> Added simple availability checking before confirming bookings.</p>
             </div>
             
             <div class="challenge-item">
-              <h4>Data Export Requirements</h4>
-              <p><strong>Challenge:</strong> Researchers required experiment data in multiple formats for analysis and publication.</p>
-              <p><strong>Solution:</strong> Built customizable export tools supporting CSV, Excel, and JSON formats.</p>
+              <h4>Inventory Management</h4>
+              <p><strong>Challenge:</strong> School needed an easy way to track equipment condition and maintenance.</p>
+              <p><strong>Solution:</strong> Created a simple status system for equipment and maintenance tracking.</p>
             </div>
           </div>
         </section>
@@ -223,15 +220,15 @@
         <section class="project-testimonial">
           <h2><i class="fas fa-quote-left"></i> Client Feedback</h2>
           <blockquote>
-            <p>"This system has dramatically improved our lab's efficiency. Equipment utilization has increased by 40%, and researchers spend less time on administrative tasks. Derick took the time to understand our specific workflows, resulting in a system that feels tailor-made for our needs."</p>
+            <p>"The lab management system has helped us keep better track of our equipment and schedule lab sessions more efficiently. It's simple to use and has reduced the time we spend on administrative tasks. Derick created exactly what we needed for our school lab."</p>
             <footer>
               <div class="client-info">
                 <div class="client-avatar">
                   <i class="fas fa-user"></i>
                 </div>
                 <div>
-                  <strong>Prof. James Mwangi</strong>
-                  <span>Head of Research, University Department</span>
+                  <strong>John Kimani</strong>
+                  <span>Science Teacher, Local School</span>
                 </div>
               </div>
             </footer>
@@ -247,12 +244,14 @@
       <div class="footer-content">
         <div class="footer-about">
           <h3>Derick Muluka</h3>
-          <p>Full-Stack Web Developer & IT Specialist dedicated to creating innovative solutions and pushing technological boundaries.</p>
+          <p>Web Developer dedicated to creating practical solutions for businesses.</p>
           <div class="footer-social">
             <a href="https://www.linkedin.com/in/DerickMuluka" target="_blank"><i class="fab fa-linkedin"></i></a>
             <a href="https://github.com/DerickMuluka" target="_blank"><i class="fab fa-github"></i></a>
+            <!--
             <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
             <a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+            -->
           </div>
         </div>
         
