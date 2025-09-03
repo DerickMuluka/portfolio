@@ -85,11 +85,11 @@
           </div>
           <div class="meta-item">
             <i class="fas fa-code"></i>
-            <span>Django, Python, PostgreSQL</span>
+            <span>PHP, MySQL, JavaScript</span>
           </div>
           <div class="meta-item">
             <i class="fas fa-user-tie"></i>
-            <span>Client: National Elections Board</span>
+            <span>Client: Local Organization</span>
           </div>
         </div>
       </div>
@@ -101,10 +101,10 @@
           </div>
         </div>
         <div class="project-links">
-          <a href="https://github.com/DerickMuluka/voting-system" class="btn btn-primary" target="_blank">
+          <a class="btn btn-primary" target="_blank">
             <i class="fab fa-github"></i> View Code
           </a>
-          <a href="https://voting.demo.com" class="btn btn-secondary" target="_blank">
+          <a  class="btn btn-secondary" target="_blank">
             <i class="fas fa-external-link-alt"></i> Live Demo
           </a>
         </div>
@@ -113,30 +113,39 @@
       <div class="project-content">
         <section class="project-overview">
           <h2><i class="fas fa-binoculars"></i> Project Overview</h2>
-          <p>The Online Voting System is a secure digital platform designed to facilitate fair and transparent elections. The system incorporates biometric verification, real-time results, and comprehensive audit trails to ensure election integrity.</p>
+          <p>The Online Voting System is a secure digital platform designed to facilitate fair and transparent elections. The system includes voter registration, ballot creation, voting process, and result tabulation.</p>
+          
+          <div class="features-grid">
+            <div class="feature-card">
+              <div class="feature-icon">
+                <i class="fas fa-user-check"></i>
+              </div>
+              <h3>Voter Registration</h3>
+              <p>Simple system for registering and verifying voters.</p>
+            </div>
             
             <div class="feature-card">
               <div class="feature-icon">
-                <i class="fas fa-shield-alt"></i>
+                <i class="fas fa-check-square"></i>
               </div>
-              <h3>End-to-End Encryption</h3>
-              <p>Military-grade encryption for all transmitted data and stored votes to prevent tampering.</p>
+              <h3>Ballot Creation</h3>
+              <p>Easy creation of ballots with multiple positions and candidates.</p>
+            </div>
+            
+            <div class="feature-card">
+              <div class="feature-icon">
+                <i class="fas fa-lock"></i>
+              </div>
+              <h3>Secure Voting</h3>
+              <p>Basic security measures to ensure vote integrity.</p>
             </div>
             
             <div class="feature-card">
               <div class="feature-icon">
                 <i class="fas fa-chart-bar"></i>
               </div>
-              <h3>Real-time Analytics</h3>
-              <p>Live election dashboards with geographic breakdowns and demographic analysis.</p>
-            </div>
-            
-            <div class="feature-card">
-              <div class="feature-icon">
-                <i class="fas fa-clipboard-check"></i>
-              </div>
-              <h3>Audit Trails</h3>
-              <p>Comprehensive logging of all system activities with blockchain-based verification.</p>
+              <h3>Result Tabulation</h3>
+              <p>Simple result calculation and reporting.</p>
             </div>
           </div>
         </section>
@@ -149,13 +158,14 @@
             <div class="tech-grid">
               <div class="tech-item">
                 <div class="tech-icon">
-                  <i class="fab fa-python"></i>
+                  <i class="fab fa-php"></i>
                 </div>
                 <div class="tech-info">
                   <h4>Backend</h4>
                   <ul>
-                    <li>Django 4.1</li>
-                    <li>Django REST Framework</li>
+                    <li>PHP</li>
+                    <li>Simple vote processing</li>
+                    <li>Basic API endpoints</li>
                   </ul>
                 </div>
               </div>
@@ -167,9 +177,9 @@
                 <div class="tech-info">
                   <h4>Database</h4>
                   <ul>
-                    <li>PostgreSQL 14</li>
-                    <li>Database partitioning</li>
-                    <li>Row-level security</li>
+                    <li>MySQL</li>
+                    <li>Voter information</li>
+                    <li>Vote records</li>
                   </ul>
                 </div>
               </div>
@@ -181,9 +191,9 @@
                 <div class="tech-info">
                   <h4>Frontend</h4>
                   <ul>
-                    <li>Vue.js 3</li>
-                    <li>Tailwind CSS</li>
-                    <li>WebSockets</li>
+                    <li>HTML/CSS</li>
+                    <li>JavaScript</li>
+                    <li>jQuery for interactions</li>
                   </ul>
                 </div>
               </div>
@@ -194,15 +204,15 @@
             <h3>Challenges & Solutions</h3>
             
             <div class="challenge-item">
-              <h4>Biometric Performance</h4>
-              <p><strong>Challenge:</strong> Needed high-accuracy biometric matching that worked across diverse devices.</p>
-              <p><strong>Solution:</strong> Implemented hybrid approach combining device-native APIs with custom algorithms.</p>
+              <h4>Vote Security</h4>
+              <p><strong>Challenge:</strong> Needed to ensure votes were secure and couldn't be tampered with.</p>
+              <p><strong>Solution:</strong> Implemented basic security measures to protect vote integrity.</p>
             </div>
             
             <div class="challenge-item">
-              <h4>Vote Secrecy</h4>
-              <p><strong>Challenge:</strong> Required complete vote secrecy while maintaining auditability.</p>
-              <p><strong>Solution:</strong> Developed a dual-key encryption system separating voter identity from vote content.</p>
+              <h4>Result Accuracy</h4>
+              <p><strong>Challenge:</strong> Required accurate vote counting and result reporting.</p>
+              <p><strong>Solution:</strong> Created a simple vote counting system with verification steps.</p>
             </div>
           </div>
         </section>
@@ -210,15 +220,15 @@
         <section class="project-testimonial">
           <h2><i class="fas fa-quote-left"></i> Client Feedback</h2>
           <blockquote>
-            <p>"This voting system has set a new standard for electoral integrity in our country. Derick's deep understanding of security requirements and his innovative approach to solving complex problems resulted in a system that has been praised by international observers."</p>
+            <p>"The online voting system has made our election process much more efficient. It's easy to use and has all the features we need for our organization's elections. Derick created a solution that works perfectly for our needs."</p>
             <footer>
               <div class="client-info">
                 <div class="client-avatar">
                   <i class="fas fa-user"></i>
                 </div>
                 <div>
-                  <strong>Commissioner James Mwangi</strong>
-                  <span>Chairperson, Elections Board</span>
+                  <strong>Diana Akinyi</strong>
+                  <span>Election Coordinator, Local Organization</span>
                 </div>
               </div>
             </footer>
@@ -234,12 +244,14 @@
       <div class="footer-content">
         <div class="footer-about">
           <h3>Derick Muluka</h3>
-          <p>Full-Stack Web Developer & IT Specialist dedicated to creating innovative solutions and pushing technological boundaries.</p>
+          <p>Web Developer dedicated to creating practical solutions for businesses.</p>
           <div class="footer-social">
             <a href="https://www.linkedin.com/in/DerickMuluka" target="_blank"><i class="fab fa-linkedin"></i></a>
             <a href="https://github.com/DerickMuluka" target="_blank"><i class="fab fa-github"></i></a>
-            <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+            <!--
+              <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
             <a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+            -->
           </div>
         </div>
         
