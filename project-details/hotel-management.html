@@ -77,19 +77,19 @@
           <a href="../index.html">Home</a> / <a href="../projects.html">Projects</a> / <span>Hotel Management</span>
         </div>
         <h1>Hotel Management System</h1>
-        <p class="project-subtitle">Complete solution for hotel operations and guest services</p>
+        <p class="project-subtitle">Simple system for managing hotel operations</p>
         <div class="project-meta">
           <div class="meta-item">
             <i class="fas fa-calendar"></i>
-            <span>Completed: January 2024</span>
+            <span>Completed: January 2025</span>
           </div>
           <div class="meta-item">
             <i class="fas fa-code"></i>
-            <span>Java, Spring Boot, MySQL</span>
+            <span>PHP, MySQL, JavaScript</span>
           </div>
           <div class="meta-item">
             <i class="fas fa-user-tie"></i>
-            <span>Client: Coastal Resorts Group</span>
+            <span>Client: Small Hotel</span>
           </div>
         </div>
       </div>
@@ -97,14 +97,14 @@
       <div class="project-showcase">
         <div class="showcase-image">
           <div class="gradient-placeholder">
-            <img src="../images/projects/hotel-management.png" alt="Hotel Management Dashboard">
+            <img src="../images/projects/hotel-management.png" alt="Hotel Management System">
           </div>
         </div>
         <div class="project-links">
-          <a href="https://github.com/DerickMuluka/hotel-management" class="btn btn-primary" target="_blank">
+          <a  class="btn btn-primary" target="_blank">
             <i class="fab fa-github"></i> View Code
           </a>
-          <a href="https://hotel.demo.com" class="btn btn-secondary" target="_blank">
+          <a  class="btn btn-secondary" target="_blank">
             <i class="fas fa-external-link-alt"></i> Live Demo
           </a>
         </div>
@@ -113,39 +113,39 @@
       <div class="project-content">
         <section class="project-overview">
           <h2><i class="fas fa-binoculars"></i> Project Overview</h2>
-          <p>The Hotel Management System is a comprehensive solution designed to streamline all aspects of hotel operations, from reservations and front desk operations to housekeeping and billing. The system serves as the central hub for managing guest experiences and back-office functions.</p>
+          <p>The Hotel Management System helps small hotels manage their daily operations. It includes room booking, guest check-in/out, and basic billing functionality.</p>
           
           <div class="features-grid">
             <div class="feature-card">
               <div class="feature-icon">
                 <i class="fas fa-calendar-alt"></i>
               </div>
-              <h3>Reservations</h3>
-              <p>Multi-channel booking system with real-time availability, rate management, and group booking support.</p>
+              <h3>Room Booking</h3>
+              <p>Simple calendar system for managing room reservations.</p>
             </div>
             
             <div class="feature-card">
               <div class="feature-icon">
-                <i class="fas fa-concierge-bell"></i>
+                <i class="fas fa-user-check"></i>
               </div>
-              <h3>Front Desk</h3>
-              <p>Guest check-in/out, room assignment, folio management, and ID scanning with verification.</p>
+              <h3>Guest Management</h3>
+              <p>Basic system for checking guests in and out of rooms.</p>
             </div>
             
             <div class="feature-card">
               <div class="feature-icon">
-                <i class="fas fa-broom"></i>
-              </div>
-              <h3>Housekeeping</h3>
-              <p>Room status tracking, cleaning schedules, maintenance requests, and quality control.</p>
-            </div>
-            
-            <div class="feature-card">
-              <div class="feature-icon">
-                <i class="fas fa-receipt"></i>
+                <i class="fas fa-money-bill-wave"></i>
               </div>
               <h3>Billing</h3>
-              <p>Integrated point-of-sale, invoice generation, payment processing, and night audit.</p>
+              <p>Simple invoicing and payment tracking for guests.</p>
+            </div>
+            
+            <div class="feature-card">
+              <div class="feature-icon">
+                <i class="fas fa-bed"></i>
+              </div>
+              <h3>Room Status</h3>
+              <p>Track which rooms are occupied, available, or need cleaning.</p>
             </div>
           </div>
         </section>
@@ -158,15 +158,14 @@
             <div class="tech-grid">
               <div class="tech-item">
                 <div class="tech-icon">
-                  <i class="fab fa-java"></i>
+                  <i class="fab fa-php"></i>
                 </div>
                 <div class="tech-info">
                   <h4>Backend</h4>
                   <ul>
-                    <li>Java 17</li>
-                    <li>Spring Boot 3.0</li>
-                    <li>Spring Security</li>
-                    <li>Hibernate ORM</li>
+                    <li>PHP</li>
+                    <li>Simple booking system</li>
+                    <li>Basic API endpoints</li>
                   </ul>
                 </div>
               </div>
@@ -178,10 +177,9 @@
                 <div class="tech-info">
                   <h4>Database</h4>
                   <ul>
-                    <li>MySQL 8.0</li>
-                    <li>Database partitioning</li>
-                    <li>Stored procedures</li>
-                    <li>Full-text search</li>
+                    <li>MySQL</li>
+                    <li>Room management</li>
+                    <li>Guest information</li>
                   </ul>
                 </div>
               </div>
@@ -193,10 +191,9 @@
                 <div class="tech-info">
                   <h4>Frontend</h4>
                   <ul>
-                    <li>Thymeleaf templates</li>
-                    <li>Bootstrap 5</li>
-                    <li>Chart.js</li>
-                    <li>jQuery</li>
+                    <li>HTML/CSS</li>
+                    <li>JavaScript</li>
+                    <li>jQuery for interactions</li>
                   </ul>
                 </div>
               </div>
@@ -207,15 +204,15 @@
             <h3>Challenges & Solutions</h3>
             
             <div class="challenge-item">
-              <h4>Rate Management Complexity</h4>
-              <p><strong>Challenge:</strong> Needed to support complex rate structures with seasonal variations, packages, and discounts.</p>
-              <p><strong>Solution:</strong> Developed a rules-based rate engine with override capabilities and audit trails.</p>
+              <h4>Room Availability</h4>
+              <p><strong>Challenge:</strong> Needed to prevent double booking of the same room.</p>
+              <p><strong>Solution:</strong> Added simple availability checking before confirming bookings.</p>
             </div>
             
             <div class="challenge-item">
-              <h4>Integration with Legacy Systems</h4>
-              <p><strong>Challenge:</strong> Required integration with existing property management and payment systems.</p>
-              <p><strong>Solution:</strong> Built adapters for common interfaces and implemented a middleware layer for translation.</p>
+              <h4>Check-in/Check-out Process</h4>
+              <p><strong>Challenge:</strong> Hotel staff needed a simple way to manage guest arrivals and departures.</p>
+              <p><strong>Solution:</strong> Created a straightforward interface for managing guest stays.</p>
             </div>
           </div>
         </section>
@@ -223,15 +220,15 @@
         <section class="project-testimonial">
           <h2><i class="fas fa-quote-left"></i> Client Feedback</h2>
           <blockquote>
-            <p>"This system has transformed our operations across all three of our properties. The reservation system alone has increased our direct bookings by 30%, and the staff find the interface intuitive. Derick's understanding of hotel operations was impressive and reflected in the final product."</p>
+            <p>"The hotel management system has made it much easier to keep track of our bookings and guests. It's simple to use and has all the features we need for our small hotel. Derick created a solution that works perfectly for our business."</p>
             <footer>
               <div class="client-info">
                 <div class="client-avatar">
                   <i class="fas fa-user"></i>
                 </div>
                 <div>
-                  <strong>Susan Kamau</strong>
-                  <span>Operations Manager, Coastal Resorts</span>
+                  <strong>Emily Safari</strong>
+                  <span>Hotel Manager, Small Hotel</span>
                 </div>
               </div>
             </footer>
@@ -247,12 +244,14 @@
       <div class="footer-content">
         <div class="footer-about">
           <h3>Derick Muluka</h3>
-          <p>Full-Stack Web Developer & IT Specialist dedicated to creating innovative solutions and pushing technological boundaries.</p>
+          <p>Web Developer dedicated to creating practical solutions for businesses.</p>
           <div class="footer-social">
             <a href="https://www.linkedin.com/in/DerickMuluka" target="_blank"><i class="fab fa-linkedin"></i></a>
             <a href="https://github.com/DerickMuluka" target="_blank"><i class="fab fa-github"></i></a>
+            <!--
             <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
             <a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+            --> 
           </div>
         </div>
         
